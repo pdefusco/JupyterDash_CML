@@ -8,11 +8,9 @@ Dash is Plotly’s open source Python (and R and Julia!) framework for building 
 
 In this tutorial you will gain exposure to two JupyterDash use cases:
 
-1. Notebook "1_jupyterdash_interactive": start a JupyterDash webserver in external mode and benefit from its Jupyter Notebook support capabilities.
+1. Notebook "1_jupyterdash_interactive": start a JupyterDash webserver in external mode and benefit from its Jupyter Notebook support capabilities. Python script "1B_jupyterdash_workbench_editor" achieves the same goal using the Workbench editor and is optional.
 
-2. Python script "1B_jupyterdash_workbench_editor": start a JupyterDash webserver in external mode using the Workbench editor.
-
-3. Notebook "2_jupyterdash_apiv2_cicd": more easily prototype and deploy your Dash Apps to Production as CML Analytic Applications.
+2. Notebook "2_jupyterdash_apiv2_cicd": more easily prototype and deploy your Dash Apps to Production as CML Analytic Applications.
 
 ## Requirements
 
@@ -41,7 +39,7 @@ Resource Profile: Minimum 1 CPU / 2 GB Mem
 
 More detailed instructions are available in the notebook. Run through each cell and simply follow along!
 
-#### Python Script 1B_jupyterdash_workbench_editor
+#### Python Script 1B_jupyterdash_workbench_editor (Optional)
 
 Launch a CML Session with the following minimum requirements:
 
