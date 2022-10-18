@@ -16,7 +16,7 @@ In this tutorial you will gain exposure to two JupyterDash use cases:
 
 A CML Workspace or CDSW Cluster with a Python 3.7+ Compatible Runtime or Engine.
 
-* No code changes are required.
+* No code changes required.
 * No CML Project Environment Variables need to be set.
 * There is no requirement to load data into cloud storage.
 * Python dependencies are installed in the first cell in notebook "1_jupyterdash_interactive.ipynb".
@@ -38,6 +38,9 @@ Resource Profile: Minimum 1 CPU / 2 GB Mem
 ```
 
 More detailed instructions are available in the notebook. Run through each cell and simply follow along!
+
+![title](img/step0.png)
+
 
 #### Python Script 1B_jupyterdash_workbench_editor (Optional)
 
@@ -74,6 +77,19 @@ Resource Profile: Minimum 1 CPU / 2 GB Mem
 ```
 
 More detailed instructions are available in the notebook. Run through each cell and simply follow along!
+
+![title](img/step10.png)
+
+
+## Next Steps
+
+If you are using CML Analytic Applications you may also be interested in the following tutorials:
+
+* [CSA2CML](https://github.com/pdefusco/CSA2CML): Build a real time anomaly detection dashboard with Flink, CML, and Streamlit.
+* [SDX2CDE](https://github.com/pdefusco/SDX2CDE): Explore ML Governance and Security features in SDX to increase legal compliance and enhance ML Ops best practices. 
+* [API v2](https://github.com/pdefusco/CML_AMP_APIv2): Familiarize yourself with API v2, CML's Python Library for ML Ops and DevOps.
+* [Telco Churn Demo](https://github.com/pdefusco/CML_AMP_Churn_Prediction): Build an End to End ML Project in CML and Increase ML Explainability with the LIME Library
+* [Learn how to use Cloudera Applied ML Prototypes](https://docs.cloudera.com/machine-learning/cloud/applied-ml-prototypes/topics/ml-amps-overview.html) to discover more projects using MLFlow, Streamlit, Tensorflow, PyTorch and many more popular libraries
 
 
 ## Conclusions
