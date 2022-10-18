@@ -1,5 +1,4 @@
-!pip3 install jupyter-dash
-!pip3 install pandas
+!pip3 install -r requirements.txt
 
 from jupyter_dash import JupyterDash
 import dash
@@ -165,4 +164,4 @@ import os
 app.run_server(mode='external', port = os.environ["CDSW_READONLY_PORT"], dev_tools_ui=True, #debug=True,
               dev_tools_hot_reload =True, threaded=True)
 
-#CLICK ON THE 9 Squares in upper Right
+#### CLICK ON THE 9 Squares in upper Right
