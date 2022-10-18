@@ -161,7 +161,6 @@ def update_x_timeseries(hoverData, yaxis_column_name, axis_type):
     return create_time_series(dff, axis_type, yaxis_column_name)
   
 import os
-app.run_server(mode='external', port = os.environ["CDSW_READONLY_PORT"], dev_tools_ui=True, #debug=True,
-              dev_tools_hot_reload =True, threaded=True)
+app.run_server(mode='external', port = os.environ["CDSW_READONLY_PORT"], dev_tools_ui=True, debug=True, dev_tools_hot_reload =True, threaded=True)
 
 #### CLICK ON THE 9 Squares in upper Right
