@@ -1,4 +1,4 @@
-# JupyterDash in CML
+# Using JupyterDash in CML
 
 ## Objective
 
