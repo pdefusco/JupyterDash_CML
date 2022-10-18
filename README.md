@@ -8,9 +8,11 @@ Dash is Plotly’s open source Python (and R and Julia!) framework for building 
 
 In this tutorial you will gain exposure to two JupyterDash use cases:
 
-1. Notebook "1_jupyterdash_interactive": start a JupyterDash webserver in external mode and benefit from its notebook support capabilities.
+1. Notebook "1_jupyterdash_interactive": start a JupyterDash webserver in external mode and benefit from its Jupyter Notebook support capabilities.
 
-2. Notebook "2_jupyterdash_apiv2_cicd": more easily prototype and deploy your Dash Apps to Production as CML Analytic Applications.
+2. Python script "1B_jupyterdash_workbench_editor": start a JupyterDash webserver in external mode using the Workbench editor.
+
+3. Notebook "2_jupyterdash_apiv2_cicd": more easily prototype and deploy your Dash Apps to Production as CML Analytic Applications.
 
 ## Requirements
 
@@ -24,6 +26,8 @@ A CML Workspace or CDSW Cluster with a Python 3.7+ Compatible Runtime or Engine.
 
 ## Instructions
 
+#### Notebook 1_jupyterdash_interactive
+
 Launch a CML Session with the following minimum requirements:
 
 ```
@@ -35,7 +39,44 @@ Enable Spark: not required
 Resource Profile: Minimum 1 CPU / 2 GB Mem
 ```
 
-More detailed instructions are available in each notebook. Run through each cell and simply follow along!
+More detailed instructions are available in the notebook. Run through each cell and simply follow along!
+
+#### Python Script 1B_jupyterdash_workbench_editor
+
+Launch a CML Session with the following minimum requirements:
+
+```
+Editor: Workbench Editor
+Kernel: Python 3.7 or above
+Edition: Standard
+Version: Any available verions
+Enable Spark: not required
+Resource Profile: Minimum 1 CPU / 2 GB Mem
+```
+
+Step 1: Open script "1B_jupyterdash_workbench_editor.py" and run all cells.
+
+![title](img/step5.png)
+
+Step 2: When completed, open the Dash app by clicking on the nine-dot square at the top right of the screen.
+
+![title](img/step6.png)
+
+#### Notebook 2_jupyterdash_prototyping_apps
+
+Launch a CML Session with the following minimum requirements:
+
+```
+Editor: JupyterLab
+Kernel: Python 3.7 or above
+Edition: Standard
+Version: Any available verions
+Enable Spark: not required
+Resource Profile: Minimum 1 CPU / 2 GB Mem
+```
+
+More detailed instructions are available in the notebook. Run through each cell and simply follow along!
+
 
 ## Conclusions
 
